@@ -1,0 +1,21 @@
+{
+    "name": "pmingram/stream-amg-api-lib",
+    "description": "A Composer package for the Kaltura API client library",
+    "keywords": ["StreamAMG"],
+    "minimum-stability": "dev",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "StreamAMG",
+            "homepage": "http://www.streamamg.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kaltura": "library"
+        }
+    }
+}
